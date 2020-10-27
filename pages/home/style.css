@@ -4,69 +4,59 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding: 20px 40px 0 40px;
+  padding: 20px 40px;
+  font-size: calc(1vw + 1vh + 0.5vmin);
 }
 
 .header > div {
-  margin-top: 25px;
+  margin-top: 16px;
+}
+
+.header [class*="text"] {
+  font-size: 14px;
+  text-align: center;
 }
 
 .header__time {
-  flex: 1;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header__time > span {
-  display: inline-block;
-  text-align: center;
-  font: 100px/100px "Mark Pro Bold", sans-serif;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+.header__time .clock {
+  font-family: "Mark Pro Bold", sans-serif;
+  font-size: 6em;
+  line-height: 100%;
 }
 
-.header__time > p {
-  width: 100%;
-  text-align: center;
-}
-
-.header__temperature {
+.header__weather {
   display: flex;
   flex-flow: column-reverse;
-  text-align: center;
 }
 
-.header__temperature .text--locale {
-  margin-top: 12px;
-  font-size: 14px;
-  line-height: 17.75px;
+.header__weather > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.header__temperature .text--degree {
-  margin-left: 8px;
-  font: 48px/48px "Mark Pro Bold", sans-serif;
+.header__weather .degree {
+  font-family: "Mark Pro Bold", sans-serif;
+  font-size: 2em;
 }
 
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 750px) {
   .header {
+    flex-flow: row;
     align-items: flex-start;
     justify-content: space-between;
-    flex-flow: row nowrap;
-    padding: 20px 40px 0 40px;
   }
 
   .header > div {
-    margin: 0;
-  }
-
-  .header__time > span {
-    font: 120px/120px "Mark Pro Bold", sans-serif;
-  }
-
-  .header__temperature {
-    flex-flow: column;
-  }
-
-  .header__temperature .text--locale {
     margin-top: 0;
-    margin-bottom: 12px;
+  }
+
+  .header__weather {
+    flex-flow: column;
   }
 }
