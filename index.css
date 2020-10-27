@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  background: #fff;
+  color: #222;
+}
+
+body,
+input,
+button {
+  font: 16px "Mark Pro Regular", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 20px 40px 0 40px;
+}
+
+.header > div {
+  margin-top: 25px;
+}
+
+.header__time {
+  flex: 1;
+  text-align: center;
+}
+
+.header__time > span {
+  display: inline-block;
+  text-align: center;
+  font: 100px/100px "Mark Pro Bold", sans-serif;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__time > p {
+  width: 100%;
+  text-align: center;
+}
+
+.header__temperature {
+  display: flex;
+  flex-flow: column-reverse;
+  text-align: center;
+}
+
+.header__temperature .text--locale {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 17.75px;
+}
+
+.header__temperature .text--degree {
+  margin-left: 8px;
+  font: 48px/48px "Mark Pro Bold", sans-serif;
+}
+
+@media screen and (min-width: 770px) {
+  .header {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    padding: 20px 40px 0 40px;
+  }
+
+  .header > div {
+    margin: 0;
+  }
+
+  .header__time > span {
+    font: 120px/120px "Mark Pro Bold", sans-serif;
+  }
+
+  .header__temperature {
+    flex-flow: column;
+  }
+
+  .header__temperature .text--locale {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+}
