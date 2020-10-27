@@ -59,6 +59,14 @@
   .header__weather {
     flex-flow: column;
   }
+
+  .header__time .clock {
+    font-size: 4.25em;
+  }
+
+  .header__weather .degree {
+    font-size: 1.5em;
+  }
 }
 
 /* MAIN */
