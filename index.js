@@ -1,16 +1,17 @@
-'use strict';
+'use strict'
 
-var app = (function app(app) {
+var app = (function app(app, w, d) {
+    const form = d.getElementsByClassName('form')[0];
+    
+    form.addEventListener('submit', handleSubmit);
+    
+    // **********************
+    
     function handleSubmit(e) {
         e.preventDefault();
+        
+        w.location.pathname = '/home/';
     }
-
-    function init() {
-        const form = document.getElementById('sign-in-form');
-        form.addEventListener('submit', handleSubmit);
-    }
-
-    app.init = init;
 
     return app;
-})(app || {});
+})(app || {}, window, document);
