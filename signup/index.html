@@ -3,40 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./fonts/style.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="../fonts/style.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <title>UOL Compasso | Login | Desafio Front-end</title>
   </head>
   <body>
     <div class="outer-container">
+      <div class="background"></div>
       <div class="content">
         <div class="container">
           <div class="logo-wrapper">
             <img
               class="logo-img"
-              src="./assets/logo_compasso_white_1.png"
+              src="../assets/logo_compasso_white_1.png"
               alt="Compasso UOL"
             />
           </div>
           <p>
             Olá,<br />
-            <span>
-              Para continuar navegando de forma segura, efetue o login na rede.
-            </span>
+            <span> Para se cadastrar, preencha os campos abaixo.</span>
           </p>
-          <form name="signInForm" class="form">
+          <form name="signUpForm" class="form">
             <fieldset>
-              <legend>Login</legend>
+              <legend>Cadastro</legend>
               <div class="user">
                 <input
                   type="email"
                   name="email"
-                  placeholder="Usuário"
+                  placeholder="E-mail"
                   required
                 />
-                <img src="./assets/person-outline.svg" alt="Usuário" />
+                <img src="../assets/person-outline.svg" alt="E-mail" />
               </div>
               <div class="password">
                 <input
@@ -45,22 +44,21 @@
                   placeholder="Senha"
                   required
                 />
-                <img src="./assets/lock-outline.svg" alt="Senha" />
+                <img src="../assets/lock-outline.svg" alt="Senha" />
               </div>
               <p class="notify"></p>
             </fieldset>
-            <button type="submit">Continuar</button>
+            <button type="submit">Cadastrar</button>
           </form>
-          <div class="signup">
-            <a href="/signup">Cadastro</a>
+          <div class="sign-in">
+            <a href="/">Voltar ao login</a>
           </div>
         </div>
       </div>
-      <div class="background"></div>
     </div>
 
-    <script src="/utils/index.js"></script>
-    <script src="/indexedDB/index.js"></script>
+    <script src="../utils/index.js"></script>
+    <script src="../indexedDB/index.js"></script>
     <script src="./index.js"></script>
   </body>
 </html>

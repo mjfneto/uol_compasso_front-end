@@ -132,25 +132,25 @@ body {
   color: #fff;
 }
 
-.container .signup {
+.container .sign-in {
   margin-top: 35px;
   text-align: center;
 }
 
-.container .signup > a {
+.container .sign-in > a {
   text-decoration: none;
   color: #e0e0e0;
   transition: color 0.2s;
 }
 
-.container .signup > a:hover {
+.container .sign-in > a:hover {
   text-decoration: none;
   color: #fff;
 }
 
 .background {
   flex: 1;
-  background: url("./assets/background_sign-in.png") no-repeat center/cover;
+  background: url("../assets/background_sign-in.png") no-repeat center/cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -176,7 +176,7 @@ body {
   .content .container .logo-img {
     position: absolute;
     top: 35px;
-    right: calc((100vw - 768px) / 2);
+    right: calc((100vw + 768px) / 2);
     transform: translateX(50%);
   }
 }
