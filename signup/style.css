@@ -26,7 +26,7 @@ body {
 .container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: column;
   width: 70%;
   height: 100%;
@@ -47,7 +47,7 @@ body {
 }
 
 .container > p {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   font-size: calc(2vw + 2vh + 1vmin);
 }
 
@@ -78,9 +78,7 @@ body {
   margin-bottom: 1em;
 }
 
-.container .form .user,
-.container .form .password {
-  position: relative;
+.container .form .user {
   margin-bottom: 2em;
 }
 
@@ -99,6 +97,11 @@ body {
 .container .form input.error,
 .container .form input.error {
   border: 1px solid #e9b425;
+}
+
+.container .form .user,
+.container .form .password {
+  position: relative;
 }
 
 .container .form .user > img,
@@ -120,8 +123,8 @@ body {
 }
 
 .container .form fieldset > .notify {
-  height: 2.5em;
-  margin: 0 auto 1em auto;
+  height: 50px;
+  margin: 16px auto;
   text-align: center;
   color: #e9b425;
 }
