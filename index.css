@@ -37,6 +37,10 @@ body {
   width: 100%;
 }
 
+.container .logo-wrapper {
+  text-align: center;
+}
+
 .container .logo-wrapper > img {
   max-width: 100%;
 }
