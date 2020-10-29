@@ -211,6 +211,7 @@
   background: transparent;
   border: none;
   color: #fff;
+  transition: background-color 0.2s, color 0.2s;
 }
 
 .footer .buttons button:hover {
