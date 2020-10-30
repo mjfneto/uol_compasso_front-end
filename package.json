@@ -1,0 +1,14 @@
+{
+  "name": "uol_compasso_front-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mjfneto/uol_compasso_front-end.git",
+  "author": "mjfneto <mjfneto@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
