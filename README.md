@@ -1,12 +1,12 @@
-# UOL Compasso | Desafio Front-end
+# UOL Compasso Desafio Front-end
 
 <p align="center">
-  <a href="##door-como-acessar-o-projeto">Como acessar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="##rocket-http-server">http-server</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="##card_file_box-indexeddb">IndexedDB</a>
+  <a href="#door-como-acessar-o-projeto">Como acessar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-http-server">http-server</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#indexeddb">IndexedDB</a>
 </p>
 
-## :door: Como acessar o projeto
+## :door: [Como acessar o projeto](#uol-compasso-desafio-front-end)
 
 - Instalar [Node.js](https://nodejs.org/en/)
 - Clonar o projeto e mudar para o diretório do projeto:
@@ -22,7 +22,7 @@ Com o Node.js instalado e estando no diretório raiz do projeto, executar o segu
 npm install
 ```
 
-## :rocket: http-server
+## :rocket: [http-server](#uol-compasso-desafio-front-end)
 
 Este projeto utiliza o pacote [`http-server`](https://www.npmjs.com/package/http-server) para iniciar um servidor local. Para iniciar o servidor e visualizar o projeto com todas as suas funcionalidades, executar:
 
@@ -48,6 +48,6 @@ Hit CTRL-C to stop the server
 
 Pronto, o servidor já deve estar rodando. Por fim, basta acessar um dos três links sugeridos.
 
-## :card_file_box: IndexedDB
+## [IndexedDB](#uol-compasso-desafio-front-end)
 
 Este projeto faz uso da web API [IndexedDB](https://developer.mozilla.org/pt-BR/docs/Web/API/IndexedDB_API).
