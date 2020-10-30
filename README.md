@@ -1,5 +1,11 @@
 # UOL Compasso | Desafio Front-end
 
+<p align="center">
+  <a href="##door-como-acessar-o-projeto">Como acessar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="##rocket-http-server">http-server</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="##card_file_box-indexeddb">IndexedDB</a>
+</p>
+
 ## :door: Como acessar o projeto
 
 - Instalar [Node.js](https://nodejs.org/en/)
@@ -16,7 +22,7 @@ Com o Node.js instalado e estando no diretório raiz do projeto, executar o segu
 npm install
 ```
 
-## :rocket: `http-server`
+## :rocket: http-server
 
 Este projeto utiliza o pacote [`http-server`](https://www.npmjs.com/package/http-server) para iniciar um servidor local. Para iniciar o servidor e visualizar o projeto com todas as suas funcionalidades, executar:
 
