@@ -13,7 +13,7 @@
 
 ```shell
 git clone https://github.com/mjfneto/uol_compasso_front-end.git
-cd uol_compasso_fron-end
+cd uol_compasso_front-end
 ```
 
 Com o Node.js instalado e estando no diretório raiz do projeto, executar o seguinte na linha de comando:
